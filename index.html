@@ -1,0 +1,216 @@
+<html>
+<head>
+<title>Mundo Animal</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+}
+
+body{
+font-family:Arial, Helvetica, sans-serif;
+background-image:url("https://i.pinimg.com/originals/1e/b4/0e/1eb40e8f6c568d75f45bcb41ad97bdf9.gif");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+text-align:center;
+}
+
+/* MENU */
+
+#header{
+width:100%;
+background:transparent;
+}
+
+ul{
+list-style:none;
+}
+
+.nav{
+display:flex;
+justify-content:center;
+}
+
+.nav li{
+position:relative;
+}
+
+.nav li a{
+color:white;
+text-decoration:none;
+padding:12px 18px;
+display:block;
+}
+
+.nav li a:hover{
+background-color:#37749A;
+}
+
+.nav li ul{
+display:none;
+position:absolute;
+background:transparent;
+min-width:140px;
+}
+
+.nav li:hover > ul{
+display:block;
+}
+
+/* TITULO */
+
+h1{
+margin-top:40px;
+color:#2D591D;
+font-size:80px;
+letter-spacing:8px;
+text-transform:uppercase;
+text-shadow:3px 3px 10px rgba(0,0,0,0.3);
+animation: aparecer 2s ease;
+}
+
+/* animacion del titulo */
+
+@keyframes aparecer{
+
+0%{
+opacity:0;
+transform:translateY(-50px);
+}
+
+100%{
+opacity:1;
+transform:translateY(0px);
+}
+
+}
+
+/* efecto mouse */
+
+h1:hover{
+transform:scale(1.1);
+transition:0.4s;
+color:#1d4411;
+}
+
+/* GALERIA */
+
+.galeria{
+margin-top:50px;
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.galeria img{
+width:190px;
+height:190px;
+border-radius:10px;
+box-shadow:0px 4px 8px rgba(0,0,0,0.3);
+transition:transform 0.3s;
+}
+
+.galeria img:hover{
+transform:scale(2.1);
+}
+
+/* TEXTO */
+
+.descripcion{
+margin-top:40px;
+width:70%;
+margin-left:auto;
+margin-right:auto;
+font-size:18px;
+color:#333;
+}
+
+</style>
+
+	</head>
+
+	<body> 
+
+	<div id="header">
+
+	<ul class="nav">
+
+		<li><a href="">PECES</a>
+		<ul>
+			<li><a href="https://pecesmarinos.es/peces-payaso/"><center>Pez Payaso</center></a>
+			<li><a href="https://www.fishipedia.es/pez/mola-mola"><center>Pez Luna</center></a>
+			<li><a href="https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/balloonfish/"><center>PeZ Globo</center></a>
+			<li><a href="https://www.faunia.es/planea-tu-visita/animales/pez-gato-gigante"><center>Pez Gato</center></a>
+			<li><a href="https://www.fishipedia.es/pez/aulostomus-strigosus"><center>Pez Trompeta</center></a>
+		</ul>
+		</li>
+
+		<li><a href="">MAMIFEROS</a>
+		<ul>
+			<li><a href="le.html">León</a></li>
+			<li><a href="elf.html">Elefante</a></li>
+			<li><a href="ba.html">Ballena</a></li>
+			<li><a href="mr.html">Murcielago</a></li>
+			<li><a href="oso.html">Oso</a></li>
+		</ul>
+		</li>
+
+		<li><a href="sapo.html">ANFIBIOS</a>
+		</li>
+
+		<li><a href="">AVES</a>
+		<ul>
+			<li><a href="https://ecologiaverde.elperiodico.com/tucan-5745.html">Tucan</a></li>
+			<li><a href="https://muyinteresante.okdiario.com/naturaleza/26033.html">Quetzal</a></li>
+			<li><a href="https://unamglobal.unam.mx/global_revista/colibris-solo-aves-o-mensajeros-de-los-dioses/">Colibri</a></li>
+			<li><a href="https://www.senalcolombia.tv/cultura/el-condor-andes-simbolo-patrio">Condor de los Andes</a></li>
+			<li><a href="https://www.nationalgeographic.com.es/mundo-animal/pavo-real_25824">Pavo Real</a></li>
+		</ul>
+		</li>
+
+		<li><a href="">REPTILES</a>
+		<ul>
+			<li><a href="rep1.html">Dragon de komodo</a></li>
+			<li><a href="rep5.html">Gecko</a></li>
+			<li><a href="rep4.html">Cocodrilo</a></li>
+			<li><a href="rep3.html">Vibora cantabrica</a></li>
+			<li><a href="rep2.html">Camaleón</a></li>
+		</ul>
+		</li>
+
+		<li><a href="menu desplegable .html">MENU</a>
+		</li>
+
+		</div>
+
+<h1>ANIMALES</h1>
+
+
+<div class="galeria">
+
+<img src="https://i.pinimg.com/1200x/50/e2/a0/50e2a0bdde0faadf63f337e32cd68b3e.jpg">
+<img src="https://i.pinimg.com/736x/24/ad/51/24ad516bc842181e2c6a4cd5c8d5f210.jpg">
+<img src="https://i.pinimg.com/1200x/ae/66/62/ae666294a756aff930e47b301e25537b.jpg">
+<img src="https://i.pinimg.com/736x/83/1b/14/831b14cbe9d7b991ce4401068aad4966.jpg">
+<img src="https://i.pinimg.com/1200x/9d/f5/15/9df51568054d9eb2c726ae9cb50a5b80.jpg">
+
+</div>
+
+<div class="descripcion"><text color:"white">
+<h4><pre>Baas Tun Naomi Alejandra
+Diaz Puc Ricardo Alexander
+Dzib xool Didier Geovani
+Montero Uribe Paola Monserrat
+Pech Ruiz Karen Sara 
+Ruelas May Brithany Michel
+</pre></h4>
+</text></div>
+
+</body>
+</html>
+	
+
